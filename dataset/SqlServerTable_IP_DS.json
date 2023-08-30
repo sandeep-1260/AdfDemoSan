@@ -1,0 +1,12 @@
+{
+	"name": "SqlServerTable_IP_DS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer_LS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	}
+}
