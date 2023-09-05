@@ -5,7 +5,7 @@
 		"factoryName": {
 			"value": "adf-san-etl"
 		},
-		"AzureBlobStorage_connectionString": {
+		"AzureBlobStorage_LS_connectionString": {
 			"value": ""
 		},
 		"SqlServer_LS_connectionString": {

@@ -7,9 +7,9 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "adf-san-etl"
 		},
-		"AzureBlobStorage_connectionString": {
+		"AzureBlobStorage_LS_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage'"
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage_LS'"
 		},
 		"SqlServer_LS_connectionString": {
 			"type": "secureString",
@@ -42,8 +42,8 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"AzureBlobStorage_connectionString": {
-						"value": "[parameters('AzureBlobStorage_connectionString')]"
+					"AzureBlobStorage_LS_connectionString": {
+						"value": "[parameters('AzureBlobStorage_LS_connectionString')]"
 					},
 					"SqlServer_LS_connectionString": {
 						"value": "[parameters('SqlServer_LS_connectionString')]"
