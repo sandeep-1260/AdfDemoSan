@@ -1,0 +1,20 @@
+{
+	"name": "SqlServerTable_IO_DS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer_LS",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"TableName": {
+				"type": "string"
+			},
+			"TableSchema": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	}
+}
