@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage_LS'"
 		},
+		"SanBLOB2_LS_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'SanBLOB2_LS'"
+		},
 		"SqlServer_LS_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'SqlServer_LS'"
@@ -44,6 +48,9 @@
 					},
 					"AzureBlobStorage_LS_connectionString": {
 						"value": "[parameters('AzureBlobStorage_LS_connectionString')]"
+					},
+					"SanBLOB2_LS_connectionString": {
+						"value": "[parameters('SanBLOB2_LS_connectionString')]"
 					},
 					"SqlServer_LS_connectionString": {
 						"value": "[parameters('SqlServer_LS_connectionString')]"

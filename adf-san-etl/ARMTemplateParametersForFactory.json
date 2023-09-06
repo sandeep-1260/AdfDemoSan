@@ -8,6 +8,9 @@
 		"AzureBlobStorage_LS_connectionString": {
 			"value": ""
 		},
+		"SanBLOB2_LS_connectionString": {
+			"value": ""
+		},
 		"SqlServer_LS_connectionString": {
 			"value": ""
 		}
